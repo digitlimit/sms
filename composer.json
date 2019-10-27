@@ -1,0 +1,25 @@
+{
+    "name": "digitlimit/sms",
+    "description": "Send application SMS and SMS verification code from Laravel easily",
+    "keywords": ["laravel", "sms", "verification", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mbah Emeka",
+            "email": "frankemeks77@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Digitlimit\\Sms": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
